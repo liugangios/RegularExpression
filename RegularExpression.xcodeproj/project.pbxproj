@@ -15,6 +15,7 @@
 		86C0E4131D225C2C0098CB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C0E4111D225C2C0098CB3C /* LaunchScreen.storyboard */; };
 		86C0E41E1D225C2C0098CB3C /* RegularExpressionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C0E41D1D225C2C0098CB3C /* RegularExpressionTests.m */; };
 		86C0E4291D225C2C0098CB3C /* RegularExpressionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C0E4281D225C2C0098CB3C /* RegularExpressionUITests.m */; };
+		86C0E43D1D225DB10098CB3C /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C0E43C1D225DB10098CB3C /* NSString+Regex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		86C0E4241D225C2C0098CB3C /* RegularExpressionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegularExpressionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C0E4281D225C2C0098CB3C /* RegularExpressionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionUITests.m; sourceTree = "<group>"; };
 		86C0E42A1D225C2C0098CB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C0E43B1D225DB10098CB3C /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		86C0E43C1D225DB10098CB3C /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,10 @@
 		86C0E4021D225C2C0098CB3C /* RegularExpression */ = {
 			isa = PBXGroup;
 			children = (
-				86C0E4061D225C2C0098CB3C /* AppDelegate.h */,
-				86C0E4071D225C2C0098CB3C /* AppDelegate.m */,
+				86C0E43B1D225DB10098CB3C /* NSString+Regex.h */,
+				86C0E43C1D225DB10098CB3C /* NSString+Regex.m */,
 				86C0E4091D225C2C0098CB3C /* ViewController.h */,
 				86C0E40A1D225C2C0098CB3C /* ViewController.m */,
-				86C0E40C1D225C2C0098CB3C /* Main.storyboard */,
-				86C0E40F1D225C2C0098CB3C /* Assets.xcassets */,
-				86C0E4111D225C2C0098CB3C /* LaunchScreen.storyboard */,
-				86C0E4141D225C2C0098CB3C /* Info.plist */,
 				86C0E4031D225C2C0098CB3C /* Supporting Files */,
 			);
 			path = RegularExpression;
@@ -117,6 +116,12 @@
 		86C0E4031D225C2C0098CB3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86C0E4061D225C2C0098CB3C /* AppDelegate.h */,
+				86C0E4071D225C2C0098CB3C /* AppDelegate.m */,
+				86C0E40C1D225C2C0098CB3C /* Main.storyboard */,
+				86C0E40F1D225C2C0098CB3C /* Assets.xcassets */,
+				86C0E4111D225C2C0098CB3C /* LaunchScreen.storyboard */,
+				86C0E4141D225C2C0098CB3C /* Info.plist */,
 				86C0E4041D225C2C0098CB3C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C0E43D1D225DB10098CB3C /* NSString+Regex.m in Sources */,
 				86C0E40B1D225C2C0098CB3C /* ViewController.m in Sources */,
 				86C0E4081D225C2C0098CB3C /* AppDelegate.m in Sources */,
 				86C0E4051D225C2C0098CB3C /* main.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Regex.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *str = @"1242772576@qq.com";
+    NSLog(@"%i",str.isEmailAddress);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
